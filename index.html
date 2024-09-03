@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Balloon Pop!</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+
+  <body onload="init()">
+    <div class="life"></div>
+
+    <div class="score-container">
+      <div class="curr-score"></div>
+      <div class="best-score"></div>
+    </div>
+
+    <div class="greets-btns-container">
+      <div class="greeting"></div>
+
+      <div class="btns">
+        <button class="btn easy" onclick="onLevel(this)">Easy</button>
+        <button class="btn normal" onclick="onLevel(this)">Normal</button>
+        <button class="btn hard" onclick="onLevel(this)">Hard</button>
+        <button class="btn extreme" onclick="onLevel(this)">Extreme</button>
+      </div>
+    </div>
+
+    <div class="balloons"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
